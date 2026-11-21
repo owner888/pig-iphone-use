@@ -1,0 +1,13 @@
+pig-iphone-use
+Copyright 2026 owner888
+
+resources/apps.json is the app catalog of iPhone Use
+(https://github.com/zhongerxin/iPhone-use, skills/iphone-use/references/apps.json,
+commit 66385cc), copied unmodified; MIT License, Copyright (c) 2026 ZHONG XIN.
+
+The way WebDriverAgent is reached and started — a usbmuxd tunnel to its port, a
+session without idle waits, `xcodebuild test-without-building` from a signed
+build, and the plugin's configuration keys so its setup can be reused — follows
+that project, rewritten in PHP. The phone side is Appium's WebDriverAgent
+(https://github.com/appium/WebDriverAgent, BSD-3-Clause), which this package
+does not include.

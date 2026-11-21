@@ -1,0 +1,26 @@
+{
+    "name": "owner888/pig-iphone-use",
+    "description": "iPhone use for the pig coding agent: drive a real iPhone over USB through WebDriverAgent in pure PHP — the view tree, taps, swipes, Chinese text input, screenshots and apps — with no Python or Node.js bridge.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["pig", "pig-package", "iphone", "ios", "webdriveragent", "phone-automation", "coding-agent"],
+    "authors": [
+        {"name": "the developer"}
+    ],
+    "require": {
+        "php": ">=8.3",
+        "ext-mbstring": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PigIphoneUse\\": "src/"
+        }
+    },
+    "extra": {
+        "pig": {
+            "extensions": ["./extensions/pig-iphone-use.php"],
+            "skills": ["./skills"]
+        }
+    }
+}
